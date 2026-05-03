@@ -1,16 +1,50 @@
-# React + Vite
+# 📱 Multi-App Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern multi-purpose app built with React, TailwindCSS, and custom hooks
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind-3.x-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-4.x-646CFF?logo=vite)](https://vitejs.dev/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+[View Demo](your-demo-link.com)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📖 About
 
-## Expanding the ESLint configuration
+A collection of mini-apps including Calculator, World Clock, Weather App, and Custom Hooks Demo. Built to demonstrate React hooks architecture.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Apps included:
+
+- 🧮 Calculator – basic math, keyboard support
+- ⏰ World Clock – multiple timezones, timer, stopwatch
+- 🌦️ Weather – temperature, humidity, conditions via API
+- 🪄 Hooks Demo – showcase custom hooks
+
+## 🛠️ Tech Stack
+
+- React 18
+- TailwindCSS
+- Vite
+- Axios
+- React Router DOM
+
+## 📂 Project Structure
+
+## 🚀 Quick Start
+
+`bash
+# Clone
+git clone https://github.com/sasanbrv/multi-app.git
+
+# Enter directory
+cd multi-app
+
+# Install
+npm install
+
+# Create env file (for weather API)
+echo "VITE_WEATHER_API_KEY=your_key" > .env
+
+# Run
+npm run dev
